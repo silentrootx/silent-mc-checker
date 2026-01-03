@@ -103,7 +103,7 @@
 
 ### Prerequisites
 - **Python 3.8+** (Download from [python.org](https://python.org))
-- **Windows/Linux/MacOS**
+- **Windows/Linux**
 - **Internet Connection**
 
 ### Quick Start
