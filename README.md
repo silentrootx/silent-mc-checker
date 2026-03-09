@@ -6,11 +6,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
-
-## INFO
-<img src="https://img.shields.io/github/downloads/silentroot25/silent-mc-checker/total?style=flat">
-<img src="https://img.shields.io/github/stars/silentroot25/silent-mc-checker?style=flat">
-<img src="https://img.shields.io/github/forks/silentroot25/silent-mc-checker?style=flat">
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 **The Ultimate Minecraft Account Checker** with advanced ban detection, comprehensive statistics, and beautiful UI
 
@@ -29,6 +25,12 @@
 - **Accurate Progress Bar** - Sub-character precision with smooth animations
 - **Smart ETA Calculation** - Weighted algorithm for precise time estimates
 
+### 🔍 **Improved Ban Detection**
+- **Separate Reason Field** - Hypixel ban reasons now display in dedicated field
+- **Enhanced Parsing** - Better extraction of temporary block reasons
+- **Version Detection** - Identifies incompatible Minecraft versions with suggestions
+- **Multi-Server Support** - Hypixel + DonutSMP ban checking
+
 ---
 
 ## ✨ Core Features
@@ -43,15 +45,17 @@
 
 ### 🎯 **Advanced Ban Detection**
 
-#### Hypixel Network 
+#### Hypixel Network
+- ✅ Multiple server/version combinations
 - ✅ Ban duration & ID tracking
-- ✅ Permanent & temporary ban detection (may have issue)
+- ✅ Permanent & temporary ban detection
 - ✅ Version compatibility checking
 
 #### DonutSMP Server
 - ✅ Real-time connection testing
 - ✅ Ban reason & duration extraction
 - ✅ Player statistics for unbanned accounts
+- ✅ Money, playtime, shards, level, rank
 - ✅ K/D ratio calculation
 
 ### 📊 **Statistics Collection**
@@ -88,6 +92,16 @@
 - **Cape Detection** - All cape types including Optifine
 - **Name Change Status** - Availability + last change date
 
+### 🌐 **Smart Webhook System**
+
+<div align="center">
+
+| Webhook Type | Trigger | Color |
+|-------------|---------|-------|
+| 🔴 **Banned** | Hypixel OR DonutSMP ban | Red |
+| 🟢 **Unbanned** | Clean accounts | Green |
+| 🟡 **Normal** | SFA/MFA/2FA/Other | Yellow |
+
 </div>
 
 #### Webhook Features
@@ -103,7 +117,7 @@
 
 ### Prerequisites
 - **Python 3.8+** (Download from [python.org](https://python.org))
-- **Windows/Linux**
+- **Windows/Linux/MacOS**
 - **Internet Connection**
 
 ### Quick Start
@@ -150,6 +164,7 @@ Follow the prompts:
 2. Select proxy type (1-5)
 3. Select screen mode (1-2)
 4. Choose combo file
+5. (Optional) Choose proxy file
 
 ---
 
@@ -161,13 +176,13 @@ Edit `silentmain.py` around **lines 160-175**:
 
 ```python
 # Banned Webhook (Red) - Hypixel OR DonutSMP bans
-webhook_url = 'YOUR_BANNED_WEBHOOK_HERE'
+webhook_url = 'https://discord.com/api/webhooks/YOUR_BANNED_WEBHOOK_HERE'
 
 # Unbanned Webhook (Green) - Clean accounts
-webhook_url = 'YOUR_UNBANNED_WEBHOOK_HERE'
+webhook_url = 'https://discord.com/api/webhooks/YOUR_UNBANNED_WEBHOOK_HERE'
 
 # Normal Webhook (Yellow) - SFA/MFA/2FA/Other
-webhook_url = None
+webhook_url = 'https://discord.com/api/webhooks/YOUR_NORMAL_WEBHOOK_HERE or None'
 ```
 
 ### Config.ini Settings
@@ -316,7 +331,7 @@ results/
 
 <div align="center">
 
-**Made by SilentRoot Team**
+**Made by Reaper**
 
 </div>
 
@@ -326,7 +341,7 @@ results/
 
 This tool is for **educational purposes only**. 
 
-- ✅ If you use my code **So please give some credits to Me**
+- ✅ If you use my code **So please give credits to Me**
 - ❌ Do not use for unauthorized access
 - ⚖️ Developers are not responsible for misuse
 
@@ -351,7 +366,7 @@ Need help? Have questions?
 - 💬 **Discord**: https://discord.gg/W6dHR47Hn3
 - 📖 **Documentation**: This README
 - 🐛 **Bug Reports**: GitHub Issues
-- More Tools Reveal First in Discord
+- More Tools Reveals First in Discord
 
 ---
 

@@ -1,0 +1,61 @@
+# SilentRoot v1.0 - Complete Requirements
+# The Ultimate Minecraft Account Checker with Full Feature Parity
+
+# ═══════════════════════════════════════════════════════════════
+# CORE DEPENDENCIES
+# ═══════════════════════════════════════════════════════════════
+
+# HTTP and networking libraries
+requests>=2.25.1
+urllib3>=1.26.0
+PySocks>=1.7.1
+
+# Terminal and console utilities
+colorama>=0.4.4
+readchar>=3.0.4
+console>=0.9907
+
+# Minecraft protocol and authentication
+minecraft
+git+https://github.com/ammaraskar/pyCraft.git
+
+# Configuration management
+configparser>=5.0.0
+
+# API integrations
+hypixel>=0.8.0
+mcuuid>=1.1.0
+# Note: DonutSMP API integration is built-in (no external package needed)
+
+# ═══════════════════════════════════════════════════════════════
+# BUILT-IN MODULES (No installation required)
+# ═══════════════════════════════════════════════════════════════
+# - re, os, time, threading, random, json, concurrent.futures
+# - traceback, warnings, uuid, socket, sys, string
+# - datetime, urllib.parse, io, tkinter, http.cookiejar
+
+# ═══════════════════════════════════════════════════════════════
+# SILENTROOT FEATURES
+# ═══════════════════════════════════════════════════════════════
+
+# ✅ AUTHENTICATION & CHECKING
+# - Full Microsoft/Xbox/Minecraft authentication flow
+# - Enhanced account type detection (Normal, Game Pass, Ultimate)
+# - 500-thread support with safety measures
+# - Advanced proxy handling (HTTP, SOCKS4, SOCKS5)
+
+# ═══════════════════════════════════════════════════════════════
+# SYSTEM REQUIREMENTS
+# ═══════════════════════════════════════════════════════════════
+# - Python 3.6+ (f-string support required)
+# - Windows OS (optimized for Windows commands)
+# - Internet connection (API calls and proxy scraping)
+# - 4GB+ RAM recommended for high thread counts
+
+# ═══════════════════════════════════════════════════════════════
+# INSTALLATION INSTRUCTIONS
+# ═══════════════════════════════════════════════════════════════
+# 1. Run setup.bat to install all dependencies
+# 2. Run silentmain.py to start the checker
+# 3. Config.ini will be created automatically on first run
+# 4. Customize webhooks and settings in config.ini
