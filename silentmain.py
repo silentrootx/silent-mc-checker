@@ -1725,7 +1725,6 @@ def get_ban_proxies():
         "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt",
         "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt",
         "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt",
-        "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks4.txt",
         "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt",
         "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt"
     ]
