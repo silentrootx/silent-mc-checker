@@ -174,11 +174,11 @@ class Capture:
             
             if hypixel_banned or donut_banned:
                 # Banned webhook - Account is banned on at least one service
-                webhook_url = 'https://discord.com/api/webhooks/1434212531622121483/C1fKkU0ovslv7ZQeGowVjQ5qK897cULEtd61YxKEmxBpO7weHG1PLFO4jZfULFFxYvzk'
+                webhook_url = 'YOUR_WEBHOOK_URL'
                 if screen == "'2'": print(Fore.RED + f"[WEBHOOK] Sending to BANNED webhook" + Style.RESET_ALL)
             elif hypixel_unbanned or donut_unbanned:
                 # Unbanned webhook - Account is explicitly clean/unbanned
-                webhook_url = 'https://discord.com/api/webhooks/1434212553612984501/6Yk1y-xOuHE8HoCoeIGr8G91xFRcZj6alawORnY5Tt__HN9xa4Oe9SjHNNd8qFgymMmb'
+                webhook_url = 'YOUR_WEBHOOK_URL'
                 if screen == "'2'": print(Fore.GREEN + f"[WEBHOOK] Sending to UNBANNED webhook" + Style.RESET_ALL)
             else:
                 # Normal webhook - Optional: Set to None or empty string to disable
